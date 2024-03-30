@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/external-coco-line-kalash/32/external-calc-real-estate-and-property-coco-line-kalash.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1 class="hed">Calculator</h1>
+    <div class="calculator">
+      <input type="text" id="result" readonly />
+      <input type="button" value="7" onclick="addToExpression('7')" />
+      <input type="button" value="8" onclick="addToExpression('8')" />
+      <input type="button" value="9" onclick="addToExpression('9')" />
+      <input type="button" value="/" onclick="addToExpression('/')" />
+      <input type="button" value="4" onclick="addToExpression('4')" />
+      <input type="button" value="5" onclick="addToExpression('5')" />
+      <input type="button" value="6" onclick="addToExpression('6')" />
+      <input type="button" value="*" onclick="addToExpression('*')" />
+      <input type="button" value="1" onclick="addToExpression('1')" />
+      <input type="button" value="2" onclick="addToExpression('2')" />
+      <input type="button" value="3" onclick="addToExpression('3')" />
+      <input type="button" value="-" onclick="addToExpression('-')" />
+      <input type="button" value="C" onclick="clearExpression()" />
+      <input type="button" value="0" onclick="addToExpression('0')" />
+      <input type="button" value="." onclick="addToExpression('.')" />
+      <input type="button" value="+" onclick="addToExpression('+')" />
+      <input type="button" value="=" onclick="calculate()" />
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
